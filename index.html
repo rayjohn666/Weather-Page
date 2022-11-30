@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Check the Weather</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="weatherwidget-io" href="https://forecast7.com/en/40d71n74d01/new-york/" data-label_1="Current City" data-label_2="WEATHER" data-theme="original" >Current City weather</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+ <!-- <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>WEATHER FORECAST</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>-->
+  </div>
+  <div class="wrapper">
+    <header>
+      
+      <h1>Check the Weather</h1>
+      <h3>Current Time &amp; Date: <br /> <span id="time"></span></h3>
+    </header>
+    <div class="card">
+      <div class="card-header">
+        <h2>Forecast</h2>
+      </div>
+      <div class="card-body">
+        <textarea
+          readonly
+          id="password"
+          placeholder="Your Location"
+          aria-label="Generated Location"
+        ></textarea>
+      </div>
+      <div class="card-footer">
+        <button id="Enter" class="btn">Enter</button>
+      </div>
+    </div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
+</body>
+</html>
